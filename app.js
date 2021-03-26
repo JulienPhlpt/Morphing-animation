@@ -32,22 +32,6 @@ darkMode.addEventListener("click", () => {
         color: toggle ? "rgb(22, 22, 22)" : "rgb(255, 255, 255)",
       },
       "-= 720"
-    )
-    .add(
-      {
-        targets: ".light",
-        opacity: toggle ? 1 : 0,
-        esaing: "easeOutExpo",
-      },
-      "-= 720"
-    )
-    .add(
-      {
-        targets: ".dark",
-        opacity: toggle ? 0 : 1,
-        esaing: "easeOutExpo",
-      },
-      "-= 720"
     );
 
   // Switch toggle
