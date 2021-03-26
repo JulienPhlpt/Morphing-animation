@@ -41,10 +41,3 @@ darkMode.addEventListener("click", () => {
     toggle = false;
   }
 });
-
-// const toggle = document.querySelector("svg");
-// const content = document.querySelector("p");
-
-// toggle.addEventListener("change", () => {
-//   content.classList.toggle("hidden");
-// });
