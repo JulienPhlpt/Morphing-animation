@@ -21,6 +21,7 @@ section {
 svg {
   cursor: pointer;
   padding: 3em;
+  overflow: clip;
 }
 
 h1 {
